@@ -2,6 +2,10 @@ package org.example.lesson11.homework;
 
 public class AlgHW {
 
+//    Решите задачу: Расставьте в алфавитном порядке буквы. Разрешается использование техники Разделяй и властвуй. Полученные данные напечатайте.
+//👉👉👉  На вход строка: "poiuytrewqlkjhgfdsamnbvcxz"
+//    На выходе должно быть: ABCDEFGHIJKLMNOPQRSTUVWXYZ (с большой буквы)
+
     private static void quickSort(char[] array, int low, int high) {
         if (low < high) {
             int pi = partition(array, low, high);
